@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 newParagrah.innerHTML= newAjax1.stream.game;
             
                 var newStat = document.createElement("P");
-                newStat.setAttribute("class", "col-xs-9 col-md-8 status"); /*status*/
+                newStat.setAttribute("class", "col-xs-9 col-md-7 status"); /*status*/
                 newStat.innerHTML = newAjax.status;
                newDiv.appendChild(newParagrah);
                 newDiv.appendChild(newStat);
@@ -138,12 +138,13 @@ document.getElementById("off").addEventListener("click",function(){
         
     });
     
-    
-       connect("ESL_SC2");
-     connect("OgamingSC2");
-     connect("cretetion");
     connect("freecodecamp");
+       connect("ESL_SC2");
+     
+     connect("cretetion");
+    
   connect("habathcx");
+    connect("OgamingSC2");
      connect("RobotCaleb");
     connect("noobs2ninjas");
      
