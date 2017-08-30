@@ -15,7 +15,7 @@
 }
 
 .status{
-    margin-top: -1em;
+    margin-top: -0.9em;
     margin-left: 20%;
     
 }
@@ -29,11 +29,13 @@ a.link:hover{
 
 .name{
     color:#000;
+    margin-right: 0.8em;
 }
 
 input[type=text]{
-    width: 20%;
-     padding: 1% 0 2% 10%;
+    margin-left: 1%;
+    width: 40%;
+     padding: 1%;
     
     border:2px solid rgb(224,224,224);
     border-radius: 6px;
